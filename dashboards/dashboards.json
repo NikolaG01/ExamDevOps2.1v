@@ -24,7 +24,6 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 2,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -111,13 +110,13 @@
             "uid": "PBFA97CFB590B2093"
           },
           "editorMode": "builder",
-          "expr": "rabbitmq_build_info",
+          "expr": "rabbitmq_global_messages_received_total",
           "legendFormat": "__auto",
           "range": true,
           "refId": "A"
         }
       ],
-      "title": "Panel Title",
+      "title": "Global Messages Received Total RabbitMQ",
       "type": "timeseries"
     },
     {
@@ -209,7 +208,7 @@
           "refId": "A"
         }
       ],
-      "title": "Panel Title",
+      "title": "Discovered facts total",
       "type": "timeseries"
     }
   ],
